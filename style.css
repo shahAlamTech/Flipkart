@@ -1,0 +1,71 @@
+.col.border {
+  display: flex;
+  flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .col.border img {
+        margin-bottom: 10px;
+}
+.col.border p {
+  margin: 0;
+  text-align: center;
+}
+
+
+.cylindrical-box {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: yellow; /* Change this color as needed */
+  color: #111;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cylindrical-box:hover {
+  background-color: yellow;
+}
+
+
+
+.rating-system {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .rating-system input {
+    display: none;
+  }
+  .rating-system label {
+    font-size: 2em;
+    color: lightgray;
+    cursor: pointer;
+  }
+  .rating-system input:checked ~ label {
+    color: gold;
+  }
+  .rating-system label:hover,
+  .rating-system label:hover ~ label {
+    color: gold;
+  }
+  
+  
+  .rating-system {
+    display: flex;
+    padding-left:  0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .price {
+    margin-top: 0px;
+  }
+  
+  
